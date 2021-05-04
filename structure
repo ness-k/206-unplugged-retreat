@@ -1,0 +1,36 @@
+-Header
+    -Logo
+    -Nav bar
+        -FAQ
+        -About
+    -Heading 1
+    -Image
+
+-Content (Main) Area
+    -Newsletter signup
+        -Headline
+        -Paragraph
+        -Headline
+        -Form field - Email
+        -Submit button
+    -Info about unplugged
+        -Background Image
+        -Headline
+        -Icon (x6)
+        -Text (x6)
+    -Previous Retreats
+        -Headline
+        -Image
+        -Headline
+        -Paragraph
+
+-Footer
+    -Contact
+        -Headline
+        -Contact info
+            -Number
+            -Email
+    -Social
+        -Headline
+        -Social icons
+    -Copyright
