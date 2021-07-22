@@ -87,10 +87,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  /* -------------- Main Body Styles -------------- */
+
+  body {
+    width: 90%;
+    max-width: 414px;
+    margin: 0 auto;
+  }
+  
+  .content-wrapper {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /*main {}*/
+
   /* -------------- Base Header - Footer Styles -------------- */
 
   header,
   footer {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +115,9 @@ textarea {
 
   /* Header Styles */
 
-  /*header {}*/
+  header {
+    padding: 15px 0;
+  }
 
   header .content-wrapper {
     display: flex;
@@ -108,40 +126,53 @@ textarea {
     flex-flow: row wrap;
 }
 
-  /*header .content-wrapper a {}
+  /*header .content-wrapper a {}*/
 
-  .header-divider {}*/
+  .header-divider {
+    width: 100%;
+  }
 
   header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   header nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    width: 45%;
   }
 
-  /*header nav ul li {}
+  header nav ul li {
+    padding: 0 30px;
+  }
 
-  header nav ul li a {}*/
+  /*header nav ul li a {}*/
 
   /* Footer Styles */
 
-  /*footer {}
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+  }
 
-  footer .content-wrapper {}
+  footer .footer-content {
+    padding: 30px 0;
+  }
 
-  footer .footer-content {}
+  footer .footer-content h4 {
+    padding: 20px 0;
+  }
 
-  footer .contact {}
+  footer .contact {
+    margin-bottom: 30px;
+  }
 
-  footer address {}
-
-  footer address h3 {}
+  /*footer address {}
 
   footer address p {}
 
@@ -170,13 +201,6 @@ textarea {
    Homepage
    ========================================================================== */
 
-  /* Main Body Styles */
-
-  /*body {}
-  
-  main {}*/
-
-
   /* Hero-Area Styles */
 
   .hero-area {
@@ -185,13 +209,13 @@ textarea {
     align-items: center;
   }
 
-  /*.hero-area .content-wrapper {}
+  /*.hero-area .content-wrapper {}*/
 
-  .hero-content {}
+  .hero-area h1 {
+    padding-top: 55px;
+  }
 
-  .hero-content h1 {}
-
-  .hero-content img {}*/
+  /*.hero-area img {}*/
 
   /* Aside & Form Styles */
 
@@ -202,15 +226,27 @@ textarea {
     flex-flow: row wrap;
   }
 
-  /*aside .content-wrapper {}
+  aside .content-wrapper {
+    width: 90%;
+    margin: auto;
+    padding: 25px 0 54px 0;
+  }
   
-  aside .form-description {}
+  aside .form-description {
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
 
-  aside .form {}
+  aside .form h3 {
+    margin: 15px auto;
+  }
   
-  aside .form input {}
+  aside .form input {
+    margin: 9px 0;
+    padding: 15px; 
+  }
 
-  .form .email {}
+  /*.form .email {}
 
   .form .button {}*/
 
@@ -222,7 +258,13 @@ textarea {
     flex-flow: row wrap;
   }
 
-  /*.features .content-wrapper {}*/
+  .features .content-wrapper {
+    padding: 50px 0;
+  }
+
+  .features article {
+    width: 55%;
+  }
 
   .features .features-items {
     display: flex;
@@ -231,9 +273,13 @@ textarea {
     flex-flow: row wrap;
   }
 
-  /*.features .fontawesome-icon {}
+  .features .fontawesome-icon {
+    padding: 25px 0;
+  }
 
-  .features .features-item-description {}*/
+  .features .features-item-description {
+    padding: 25px 0;
+  }
 
   /* Reviews Section Styles */
 
@@ -243,9 +289,14 @@ textarea {
     flex-flow: row wrap;
   }
 
-  /*.reviews .content-wrapper {}
+  .reviews .content-wrapper {
+    padding: 50px 0;
+  }
 
-  .reviews article {}*/
+  .reviews h3 {
+    width: 50%;
+    padding: 20px 0;
+  }
 
   /* ==========================================================================
    About Page
